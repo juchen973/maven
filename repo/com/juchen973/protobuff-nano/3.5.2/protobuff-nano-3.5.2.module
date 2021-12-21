@@ -1,0 +1,59 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.juchen973",
+    "module": "protobuff-nano",
+    "version": "3.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "i4o5pfe7gjfdpnfcgs3d3ghx7q"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "protobuff-nano-3.5.2.aar",
+          "url": "protobuff-nano-3.5.2.aar",
+          "size": 49166,
+          "sha512": "425985b310457fe9695276878746e7244a5af822b0f16b11d38d33bf2a54ee929fe574b94620b1ea098c13441a3947d83a91efa4a67dcf6011605bbd8fcc34e4",
+          "sha256": "5693efdb4c93688a9a45564e3a6ea2b389d9cf1f1638a2c957e7565c17a3504c",
+          "sha1": "d0f63f2ed79b6c75f8ce046231c92d1db696bd6d",
+          "md5": "8784fa49bbdadf499779194ab61cf5f4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "protobuff-nano-3.5.2.aar",
+          "url": "protobuff-nano-3.5.2.aar",
+          "size": 49166,
+          "sha512": "425985b310457fe9695276878746e7244a5af822b0f16b11d38d33bf2a54ee929fe574b94620b1ea098c13441a3947d83a91efa4a67dcf6011605bbd8fcc34e4",
+          "sha256": "5693efdb4c93688a9a45564e3a6ea2b389d9cf1f1638a2c957e7565c17a3504c",
+          "sha1": "d0f63f2ed79b6c75f8ce046231c92d1db696bd6d",
+          "md5": "8784fa49bbdadf499779194ab61cf5f4"
+        }
+      ]
+    }
+  ]
+}
