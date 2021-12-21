@@ -1,0 +1,59 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.juchen973",
+    "module": "mirror",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "e24jacj7ajerbepo3ztlnvbaya"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mirror-1.0.0.aar",
+          "url": "mirror-1.0.0.aar",
+          "size": 13933,
+          "sha512": "1181bdffcf4a64e669e6b54f6158a35fd9f04e026b3113f37b0e4bb76da7fa3dda12de9ab2e3ade8a3215e4e801c049e71f7301488241ec1deeec0f0ffe1f884",
+          "sha256": "b9a5beb34ebe1ad2d365abfe15599d40bb3768dc4c22240511c1f97021cfd0b6",
+          "sha1": "8d7e27dc16e7bd4bd0463d460c3c255a340d5d0a",
+          "md5": "56f9940d191fae768b52bb0ebd105985"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mirror-1.0.0.aar",
+          "url": "mirror-1.0.0.aar",
+          "size": 13933,
+          "sha512": "1181bdffcf4a64e669e6b54f6158a35fd9f04e026b3113f37b0e4bb76da7fa3dda12de9ab2e3ade8a3215e4e801c049e71f7301488241ec1deeec0f0ffe1f884",
+          "sha256": "b9a5beb34ebe1ad2d365abfe15599d40bb3768dc4c22240511c1f97021cfd0b6",
+          "sha1": "8d7e27dc16e7bd4bd0463d460c3c255a340d5d0a",
+          "md5": "56f9940d191fae768b52bb0ebd105985"
+        }
+      ]
+    }
+  ]
+}
