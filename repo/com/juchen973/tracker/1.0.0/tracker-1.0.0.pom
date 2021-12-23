@@ -15,7 +15,7 @@
     <dependency>
       <groupId>com.lbe</groupId>
       <artifactId>matrix</artifactId>
-      <version>1.2.4</version>
+      <version>1.2.11</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
