@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.juchen973.o",
+    "module": "sharedprefer",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "y5dfavsaabdgxgue2xhxei2exi"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedprefer-1.0.4.aar",
+          "url": "sharedprefer-1.0.4.aar",
+          "size": 2256,
+          "sha512": "bb621783f167a08c164d82ff49e850286c989bc5a97e56417e201313be7004622260e84a96c082955e257a56dbb2949753d827f6b562cd6edcc230b24e4c8165",
+          "sha256": "aa50b653fb3cceb1e9f598ef079a437155500973513271afd2957256268053c5",
+          "sha1": "c5313cd9ade739d900d3d72ddaf3f8a6ff6d644a",
+          "md5": "9c072c64c2f15cbd2a38463c3ea15adb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.juchen973",
+          "module": "protobuff-nano",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedprefer-1.0.4.aar",
+          "url": "sharedprefer-1.0.4.aar",
+          "size": 2256,
+          "sha512": "bb621783f167a08c164d82ff49e850286c989bc5a97e56417e201313be7004622260e84a96c082955e257a56dbb2949753d827f6b562cd6edcc230b24e4c8165",
+          "sha256": "aa50b653fb3cceb1e9f598ef079a437155500973513271afd2957256268053c5",
+          "sha1": "c5313cd9ade739d900d3d72ddaf3f8a6ff6d644a",
+          "md5": "9c072c64c2f15cbd2a38463c3ea15adb"
+        }
+      ]
+    }
+  ]
+}
