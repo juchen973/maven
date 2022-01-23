@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.juchen973.o",
+    "module": "attribute",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "qvlgnycrevfsfciwzpdlcbaaua"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "attribute-2.0.0.aar",
+          "url": "attribute-2.0.0.aar",
+          "size": 44881,
+          "sha512": "dd2027e18f62616c24671b389dc3fbe6cc9b5a5b2d7d004bc89d7a1a22937c9ae898527013141dc3065292560eb0dcc153b71ad61058cc5cca4b745bea8d2987",
+          "sha256": "16cf32e0a8e6f3790ce10c84309ca8fdc9ae9e3ac37e4f5dfc1dc60f99277f2b",
+          "sha1": "9c81440a24892cc0e2241adc269c376ce6e224f9",
+          "md5": "5b930c40cc100b94a13373a3a8c8c9bf"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.juchen973",
+          "module": "protobuff-nano",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "com.juchen973.extra",
+          "module": "oaid_sdk",
+          "version": {
+            "requires": "1.0.30"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "oaid_sdk",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.juchen973.o",
+          "module": "sharedprefer",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.juchen973.o",
+          "module": "matrix",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.juchen973.extra",
+          "module": "af-android-sdk",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "androidx.documentfile",
+          "module": "documentfile",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "attribute-2.0.0.aar",
+          "url": "attribute-2.0.0.aar",
+          "size": 44881,
+          "sha512": "dd2027e18f62616c24671b389dc3fbe6cc9b5a5b2d7d004bc89d7a1a22937c9ae898527013141dc3065292560eb0dcc153b71ad61058cc5cca4b745bea8d2987",
+          "sha256": "16cf32e0a8e6f3790ce10c84309ca8fdc9ae9e3ac37e4f5dfc1dc60f99277f2b",
+          "sha1": "9c81440a24892cc0e2241adc269c376ce6e224f9",
+          "md5": "5b930c40cc100b94a13373a3a8c8c9bf"
+        }
+      ]
+    }
+  ]
+}
