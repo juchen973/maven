@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.juchen973.o",
+    "module": "matrix",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "dlw7elf24vdd7odberbog55dwi"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "androidx.documentfile",
+          "module": "documentfile",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "matrix-2.0.0.aar",
+          "url": "matrix-2.0.0.aar",
+          "size": 96056,
+          "sha512": "1f75154c7387c1779b0ba292d56c093cde03d15603f2af35f91f4b5a1845830a4a8248f2b2c3d269434c2bb2ba45364aeadf84fe6d881b9e96a993c1e75648bb",
+          "sha256": "966ca5fff18df604890f140305c761e77d29c5fbe38c8f65611ff4f9d0532756",
+          "sha1": "632f3e3c2513d8589215917659f5d2129749173d",
+          "md5": "a1accb54d5c4cdf29c349e77e6e8ebc4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.juchen973",
+          "module": "protobuff-nano",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "com.juchen973.extra",
+          "module": "oaid_sdk",
+          "version": {
+            "requires": "1.0.30"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "oaid_sdk",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.juchen973.o",
+          "module": "sharedprefer",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "androidx.documentfile",
+          "module": "documentfile",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "matrix-2.0.0.aar",
+          "url": "matrix-2.0.0.aar",
+          "size": 96056,
+          "sha512": "1f75154c7387c1779b0ba292d56c093cde03d15603f2af35f91f4b5a1845830a4a8248f2b2c3d269434c2bb2ba45364aeadf84fe6d881b9e96a993c1e75648bb",
+          "sha256": "966ca5fff18df604890f140305c761e77d29c5fbe38c8f65611ff4f9d0532756",
+          "sha1": "632f3e3c2513d8589215917659f5d2129749173d",
+          "md5": "a1accb54d5c4cdf29c349e77e6e8ebc4"
+        }
+      ]
+    }
+  ]
+}
