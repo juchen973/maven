@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.juchen973.o",
+    "module": "policy",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "vzgpupibangkfe6ocqorotleyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-2.0.0.aar",
+          "url": "policy-2.0.0.aar",
+          "size": 96581,
+          "sha512": "db1ed19761f55bd769bb784ab04b72bb200fbb9d0d7d95ac092a98e1d188d6e2dc7c649a2d5d4a9fc08dd571ab70cc9cba1f91df5ad3de38da5d55402cc1bc12",
+          "sha256": "42f32d9e014d59039c38ad9d1014e0cf4966b05387fe5fcf88da629ea03754b2",
+          "sha1": "de75eda77f4f8843c85cd7438003fc1b40142713",
+          "md5": "44a0c43b9ba44fc6d4d7e835bbe0fac3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.juchen973",
+          "module": "protobuff-nano",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.juchen973.o",
+          "module": "sharedprefer",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.juchen973.o",
+          "module": "matrix",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.github.megatronking.stringfog",
+          "module": "xor",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-2.0.0.aar",
+          "url": "policy-2.0.0.aar",
+          "size": 96581,
+          "sha512": "db1ed19761f55bd769bb784ab04b72bb200fbb9d0d7d95ac092a98e1d188d6e2dc7c649a2d5d4a9fc08dd571ab70cc9cba1f91df5ad3de38da5d55402cc1bc12",
+          "sha256": "42f32d9e014d59039c38ad9d1014e0cf4966b05387fe5fcf88da629ea03754b2",
+          "sha1": "de75eda77f4f8843c85cd7438003fc1b40142713",
+          "md5": "44a0c43b9ba44fc6d4d7e835bbe0fac3"
+        }
+      ]
+    }
+  ]
+}
